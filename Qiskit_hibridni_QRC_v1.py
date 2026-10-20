@@ -73,9 +73,9 @@ torch.set_num_threads(1)
 torch.use_deterministic_algorithms(True)
 
 DEFAULT_FILES = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_2974.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_plus_1730.csv",
+    "/data/loto7_4704_k83.csv",
+    "/data/loto7_4704_k83_loto_2974.csv",
+    "/data/loto7_4704_k83_loto_plus_1730.csv",
 )
 
 BALLS = 39
@@ -1220,7 +1220,7 @@ Dijagnostika, ponavljanje prethodnog kola: prosečno 1.1406 pogodaka
   Završno učenje: svih 4703 prelaza
     Iteracija 1/8
     Prihvaćenih koraka: 8
-NEXT: 3, 8, 18, 22, 24, 33, 34
+NEXT: 3, x, 18, y, 24, z, 34
 Log-masa NEXT unutar naučene raspodele: -15.52991157
 Dijagnostika: najduži uzastopni niz=2; brojeva 1–19=3; brojeva 20–39=4
 Ista kombinacija u istoriji: 0
@@ -1263,7 +1263,7 @@ Dijagnostika, ponavljanje prethodnog kola: prosečno 1.3125 pogodaka
   Završno učenje: svih 2973 prelaza
     Iteracija 1/4
     Prihvaćenih koraka: 4
-NEXT: 1, 5, 7, 12, 34, 37, 39
+NEXT: 1, x, 7, y, 34, z, 39
 Log-masa NEXT unutar naučene raspodele: -15.71090462
 Dijagnostika: najduži uzastopni niz=1; brojeva 1–19=4; brojeva 20–39=3
 Ista kombinacija u istoriji: 0
@@ -1301,7 +1301,7 @@ Dijagnostika, ponavljanje prethodnog kola: prosečno 1.2812 pogodaka
   Završno učenje: svih 1729 prelaza
     Iteracija 1/1
     Prihvaćenih koraka: 1
-NEXT: 1, 4, 6, 29, 32, 36, 38
+NEXT: 1, x, 6, y, 32, z, 38
 Log-masa NEXT unutar naučene raspodele: -16.37781416
 Dijagnostika: najduži uzastopni niz=1; brojeva 1–19=3; brojeva 20–39=4
 Ista kombinacija u istoriji: 0
@@ -1309,9 +1309,9 @@ Ista kombinacija u istoriji: 0
 
 ======================================================================
 ZAVRŠNE NEXT KOMBINACIJE
-loto7_4704_k83.csv: 3, 8, 18, 22, 24, 33, 34
-loto7_4704_k83_loto_2974.csv: 1, 5, 7, 12, 34, 37, 39
-loto7_4704_k83_loto_plus_1730.csv: 1, 4, 6, 29, 32, 36, 38
+loto7_4704_k83.csv: 3, x, 18, y, 24, z, 34
+loto7_4704_k83_loto_2974.csv: 1, x, 7, y, 34, z, 39
+loto7_4704_k83_loto_plus_1730.csv: 1, x, 6, y, 32, z, 38
 """
 
 
